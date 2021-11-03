@@ -165,7 +165,8 @@ body {
 .footer {
         background: url(footer-bg.jpg);
         background-size: cover;
-        height: 30vh;
+        height: auto;
+        
     }
 
 .footer .h2-footer {
@@ -203,4 +204,5 @@ body {
     background-position: center;
     position: relative;
     margin:auto;
+    clear:both;
 }
