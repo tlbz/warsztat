@@ -3862,7 +3862,8 @@ fieldset:disabled .btn {
 .btn-lg {
     padding: .5rem 1rem;
     font-size: 1.25rem;
-    border-radius: .3rem
+    border-radius: .3rem;
+    display: inline-block;
 }
 
 .btn-group-sm>.btn,
@@ -7778,7 +7779,7 @@ fieldset:disabled .btn {
 
 .my-2 {
     margin-top: .5rem !important;
-    margin-bottom: .5rem !important
+    margin-bottom: .5rem !important;
 }
 
 .my-3 {
