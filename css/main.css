@@ -54,12 +54,12 @@ body {
     margin:auto;
 }
 
-.hero h1 {
+.hero, .hero-about h1 {
     color:white;
     font-size: 2.827rem;
 }
 
-.hero h3 {
+.hero, .hero-about h3 {
     font-size: 1.414rem;
     color:#FFFFFF;
     font-weight: 400;
@@ -165,7 +165,7 @@ body {
 .footer {
         background: url(footer-bg.jpg);
         background-size: cover;
-        height: auto;
+        height: 30vh;
         
     }
 
@@ -205,4 +205,60 @@ body {
     position: relative;
     margin:auto;
     clear:both;
+}
+
+/* About page */
+
+.hero-about {
+    min-height: 100vh;
+    background: url(bg-about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin:auto;
+}
+
+.hero-about p {
+    color:#FFFFFF
+}
+
+.row-about {
+    position: absolute;
+    top: 25%;
+    left: auto;
+    z-index: 3;
+    text-align: left;
+    width: 100%;
+}
+
+.hero-about h2 {
+    font-size: 1.999rem;
+    color:#FFFFFF;
+    font-weight: 400;
+}
+
+.about-ul {
+        list-style-type: none;
+        margin-top: 16px;
+        color: white; 
+}
+
+.info .about {
+    color: white;
+
+}
+
+.bg-black-about {
+    background-color: #000000;
+    position: relative;
+}
+
+.img-about {
+    max-width: 200px !important;
+    margin: 24px !important;
+}
+
+.absolut-container {
+   margin-top: 80px;
 }
