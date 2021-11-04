@@ -127,18 +127,19 @@ body {
     margin-top: 16px;
 }
 
-.li-info {
+.info-li {
     list-style-type: none;
     align-items: center;
+    padding-bottom: 4px;
 }
 
 .info-text {
     margin-left: 12px;
-    display: inline-block;
+    display: inline;
 }
 
 .info-img {
-    vertical-align: text-top;
+    padding: 4px;
 }
 
 
