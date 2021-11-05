@@ -263,3 +263,23 @@ body {
 .absolut-container {
    margin-top: 80px;
 }
+
+
+@media (max-width: 480px) {
+    .navbar {
+        background-color: rgba(0,0,0,0.6);
+    }
+}
+
+@media (max-width: 480px) {
+    .main-btn {
+        padding: 8px 16px !important;
+        margin-top: 4px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-link {
+        margin-bottom: 4px !important;
+    }
+}
